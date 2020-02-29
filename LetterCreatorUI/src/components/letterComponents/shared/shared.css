@@ -1,0 +1,162 @@
+.selection-menu {
+    display: flex;
+    width: 70%;
+    /* justify-content: space-around; */
+}
+
+.selection-option {
+    /* width: 30%; */
+    margin-right: 5px;
+}
+
+.selection-input {
+    width: 80%;
+    padding: 10px;
+}
+
+.letter-line {
+    width: 100%;
+    padding: 10px;
+}
+
+.letter-line-contents {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-section-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.options-menu {
+    width: 60%;
+}
+
+
+.menu-container {
+    /* display: block; */
+    width: 75%;
+    /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    white-space: normal;
+    line-break: auto;
+    font-size: .875rem;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    margin-top: 5px;
+}
+
+.menu-header {
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+
+.menu-body {
+    padding: .5rem .75rem;
+    color: #212529;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pointer {
+    /* position: absolute; */
+    /* display: block; */
+    /* transform: rotate(45deg);
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: 0 .3rem;
+    background-color: #f7f7f7; */
+    
+}
+
+div.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;  /* left arrow slant */
+	border-right: 5px solid transparent; /* right arrow slant */
+	border-bottom: 5px solid #2f2f2f; /* bottom, add background color here */
+	font-size: 0;
+	line-height: 0;
+}
+
+.pointer:before {
+    top: -.30714286em;
+    left: 1em;
+    bottom: auto;
+    right: auto;
+    margin-left: 0;
+}
+
+.pointer:before {
+    background: #fff;
+}
+.pointer:before {
+    position: absolute;
+    content: '';
+    width: .71428571em;
+    height: .71428571em;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 2;
+    -webkit-box-shadow: 1px 1px 0 0 #bababc;
+    box-shadow: 1px 1px 0 0 #bababc;
+}
+
+div.tooltip {
+	/* tooltip content styling in here; nothing to do with arrows */
+}
+
+/* shared with before and after */
+div.tooltip:before, div.tooltip:after {
+	content: ' ';
+	height: 0;
+	position: absolute;
+	width: 0;
+	border: 10px solid transparent; /* arrow size */
+}
+
+/* these arrows will point up */
+
+/* top-stacked, smaller arrow */
+div.tooltip:before {
+	border-bottom-color: #fff;  /* arrow color */
+
+	/* positioning */
+	position: absolute;
+	top: -19px;
+	left: 255px;
+	z-index: 2;
+}
+
+/* arrow which acts as a background shadow */
+div.tooltip:after {
+	border-bottom-color: #333;  /* arrow color */
+
+	/* positioning */
+	position: absolute;
+	top: -24px;
+	left: 255px;
+	z-index: 1;
+}
