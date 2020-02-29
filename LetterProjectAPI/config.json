@@ -1,0 +1,9 @@
+﻿{
+  "MongoConnectionString": "mongodb://localhost:27017",
+  "DatabaseName": "lettercreator",
+  "DatabaseCollections": {
+    "Templates": "lettertemplates",
+    "Letters": "letters"
+
+  }
+}
