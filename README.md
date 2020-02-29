@@ -14,9 +14,13 @@ The various pieces of the project are all under initial-buildout development. I 
 
 ## Tech/framework used
 DB - MongoDB
+
 API - C#/.NET Core w/mongodb packages
+
 UI - JS/React Framework with BootStrap/ReactStrap style library
+
 SS App - C#/.Net Core w/iTextSharp package
+
 
 **Exploring** idea of attempting AWS for SQS/S3 purposes.
 
